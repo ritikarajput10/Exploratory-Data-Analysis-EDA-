@@ -1,0 +1,7 @@
+# Survival by gender
+sns.countplot(x="Survived", hue="Sex", data=df)
+plt.show()
+
+# Age vs Survival
+sns.boxplot(x="Survived", y="Age", data=df)
+plt.show()
