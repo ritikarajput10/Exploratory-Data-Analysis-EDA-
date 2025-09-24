@@ -1,0 +1,6 @@
+# Shape & info
+print(df.shape)
+print(df.info())
+
+# Summary
+print(df.describe(include="all"))
