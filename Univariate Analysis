@@ -1,0 +1,7 @@
+# Age distribution
+sns.histplot(df["Age"].dropna(), kde=True)
+plt.show()
+
+# Boxplot for fare
+sns.boxplot(x=df["Fare"])
+plt.show()
