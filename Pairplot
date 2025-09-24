@@ -1,0 +1,2 @@
+sns.pairplot(df[["Survived", "Age", "Fare", "Pclass"]], hue="Survived")
+plt.show()
